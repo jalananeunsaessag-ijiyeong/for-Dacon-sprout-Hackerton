@@ -1,15 +1,11 @@
-<<<<<<< HEAD
-
-=======
 import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-function HelloWorld() {
-  return (
-    <div>
-      <h1>Hello, 지윤허팀의 ㅎㅅㅎ!</h1>
-    </div>
-  );
-}
-
-export default HelloWorld;
->>>>>>> c2064d8 (add main.js again)
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
