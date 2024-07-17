@@ -1,10 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function HelloWorld() {
+  return (
+    <div>
+      <h1>Hello, 지윤허팀의 ㅎㅅㅎ!</h1>
+    </div>
+  );
+}
+
+export default HelloWorld;
