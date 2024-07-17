@@ -3,7 +3,7 @@ import React from 'react';
 function HelloWorld() {
   return (
     <div>
-      <h1>Hello, 지윤허팀의 ㅎㅅㅎ!</h1>
+      <h1>Hello,</h1>
     </div>
   );
 }
