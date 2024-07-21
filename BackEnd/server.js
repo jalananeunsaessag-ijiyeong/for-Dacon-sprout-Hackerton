@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 const askOpenAI = async (query) => {
     try {
         const response = await axios.post('https://api.openai.com/v1/chat/completions', {
-            model: "gpt-4o-mini",
+            model: "여기에 모델 입력 예정",
             messages: [
                 { role: "system", content: "You are a legal expert." },
                 { role: "user", content: query }
